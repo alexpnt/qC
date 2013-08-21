@@ -1,0 +1,3 @@
+lex qccompiler.l
+yacc qccompiler.y -d 
+gcc -o qccompiler y.tab.c functions.c semantic.c lex.yy.c -ll -ly -g
