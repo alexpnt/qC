@@ -9,19 +9,23 @@ qC Compiler
 * Syntax Analyzer (Abstract Syntax Tree)
 * Semantic Analyzer (Symbol Table + Error Handler)
 
-*Installation:*
+####Installation:####
 
-./install   (lex,yacc and gcc required)
+    ./install   (lex,yacc and gcc required)
 
 ####Usage:####
 
 Show AST
-	./qcompiler -t < simple.qc
+
+    ./qcompiler -t < simple.qc
 
 Show Symbol Table
-	./qcompiler -s < simple.qc
+
+    ./qcompiler -s < simple.qc
 
 ####Screenshot:####
 <p align="center">
-  <img src="https://github.com/AlexPnt/qC/blob/master/screens/qC.png"/>
+  <img src="https://github.com/AlexPnt/qC/raw/master/screens/qC.png"/>
 </p>
+
+Cheers!
